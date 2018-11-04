@@ -113,5 +113,7 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
 # SCHEDULER_FLUSH_ON_START = True
 
-# REDIS_URL = 'redis://user:pass@hostname:9001'
-REDIS_URL = 'redis://root:redistest@47.107.114.74:6379'
+REDIS_URL = 'redis://user:pass@hostname:9001'
+
+
+#SCHEDULER_FLUSH_ON_START = True     #再次爬取的时候是否清空redis，默认是Flase
